@@ -8,9 +8,19 @@
 	
 
 
-<script type="text/javascript" src="common.js"></script>
-<script type="text/javascript" src="ads.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+<script type="text/javascript" src="./js/ads.js"></script>
 <script type="text/javascript">
+//'file:///C:/Users/zb/Desktop/2.html?k=1&k2=2&'
+var url = 'file:///C:/Users/zb/Desktop/2.html?k=1&k2=2&';
+// 获取url指定参数
+var param = common.QueryParam(url,'k2');
+// 获取真个url全部参数
+var data = common.parse(url,{
+	// dataType:'array'
+});
+console.log(param,data);
+
 
 </script>
 
