@@ -12,14 +12,20 @@
 <script type="text/javascript" src="./js/ads.js"></script>
 <script type="text/javascript">
 //'file:///C:/Users/zb/Desktop/2.html?k=1&k2=2&'
-var url = 'file:///C:/Users/zb/Desktop/2.html?k=1&k2=2&';
-// 获取url指定参数
-var param = common.QueryParam(url,'k2');
-// 获取真个url全部参数
-var data = common.parse(url,{
-	// dataType:'array'
-});
-console.log(param,data);
+// var url = 'file:///C:/Users/zb/Desktop/2.html?k=1&k2=2&';
+// // 获取url指定参数
+// var param = common.QueryParam(url,'k2');
+// // 获取真个url全部参数
+// var data = common.parse(url,{
+// 	// dataType:'array'
+// });
+// console.log(param,data);
+
+
+//浮点乘法计算
+var num = common.accMul(0.1,0.2);
+var num2 = 0.1.mul(0.2);
+console.log(0.1*0.2,num,num2);
 
 
 </script>
