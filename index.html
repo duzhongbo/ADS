@@ -23,9 +23,18 @@
 
 
 //浮点乘法计算
-var num = common.accMul(0.1,0.2);
-var num2 = 0.1.mul(0.2);
-console.log(0.1*0.2,num,num2);
+// var num = common.accMul(0.1,0.2);
+// var num2 = 0.1.mul(0.2);
+// console.log(0.1*0.2,num,num2);
+
+//浮点数加法计算
+var a=0.1,b=0.1,c=0.1;
+setInterval(function(){
+    a+=0.1;
+    b=b.add(0.1);
+    c=common.accAdd(c,0.1);
+    console.log(a,b,c);
+},1000);
 
 
 </script>
